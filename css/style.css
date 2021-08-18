@@ -1,0 +1,116 @@
+/*Position Static*/
+
+body {
+    font-size: 40px;
+}
+
+.container {
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.div-um {
+    background-color: palevioletred;
+    top: 100px;
+    left: 50px;
+}
+
+.div-dois {
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.div-tres {
+    background-color: lightsalmon;
+    padding: 10px;
+}
+
+.div {
+    position: static;
+}
+
+/*Position Relative*/
+
+.um {
+    background-color: palevioletred;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.dois {
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.tres {
+    background-color: lightsalmon;
+    padding: 10px;
+}
+
+/*Position Absolute*/
+
+.one {
+    background-color: palevioletred;
+    position: absolute;
+}
+
+.two {
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.three {
+    background-color: lightsalmon;
+    padding: 10px;
+}
+
+/*Position Fixed*/
+
+.container_relative {
+    background-color: aquamarine;
+    position: relative;
+    padding: 10px;
+    height: 100vh;
+}
+
+.uno {
+    background-color: palevioletred;
+    position: fixed;
+    top: 0px;
+}
+
+.dos {
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.tress {
+    background-color: lightsalmon;
+    padding: 10px;
+}
+
+/*Position Sticky*/
+
+.container_sticky {
+    background-color: aquamarine;
+    position: relative;
+    padding: 10px;
+    height: 200vh;
+}
+
+.hum {
+    background-color: palevioletred;
+    position: sticky;
+    top: 0px;
+}
+
+.due {
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.tre {
+    background-color: lightsalmon;
+    padding: 10px;
+}
